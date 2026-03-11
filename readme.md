@@ -1,6 +1,7 @@
-# WDC AWS Deployment Demo
+# WDC AWS Task
 
-This project demonstrates the deployment of a Next.js application on AWS EC2 using a modern production-like infrastructure setup including Nginx Reverse Proxy, PM2 Process Manager, and GitHub CI/CD automation.
+## Introduction
+This README explains everything I have implemented in this deployment task. This project demonstrates the deployment of a Next.js application on AWS EC2 using a modern production-like infrastructure setup including Nginx Reverse Proxy, PM2 Process Manager, and GitHub CI/CD automation.
 
 The goal of this task was to showcase practical deployment knowledge, server configuration, and automated deployment pipelines.
 
@@ -59,13 +60,13 @@ Steps performed:
 ```
 Instance Type: t3.micro
 OS: Ubuntu
-Public IP: <YOUR_PUBLIC_IP>
+Public IP: 15.206.92.72
 Region: ap-south-1
 ```
-
 ### Screenshot
 
-Add EC2 Instance Screenshot Here
+<img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/598e9cee-9c5d-4099-b06a-590945cb02b6" />
+
 
 ---
 
@@ -93,7 +94,8 @@ http://localhost:3000
 
 ### Screenshot
 
-Add Next.js Running Screenshot
+<img width="1600" height="797" alt="image" src="https://github.com/user-attachments/assets/ac78e1fa-0111-4fee-95e7-90014900853b" />
+
 
 ---
 
@@ -127,7 +129,8 @@ pm2 save
 
 ### Screenshot
 
-Add PM2 Running Screenshot
+<img width="1600" height="129" alt="image" src="https://github.com/user-attachments/assets/24b3e259-55d5-4fe7-b2fa-ce83e6a2b9df" />
+
 
 ---
 
@@ -184,7 +187,8 @@ sudo systemctl restart nginx
 
 ### Screenshot
 
-Add Nginx Configuration Screenshot
+<img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/51e5cb03-78ac-4297-acd0-898dbd032d5c" />
+
 
 ---
 
@@ -266,7 +270,8 @@ After pushing code to GitHub:
 
 ### Screenshot
 
-Add GitHub Actions Success Screenshot
+<img width="1600" height="765" alt="image" src="https://github.com/user-attachments/assets/4bd0d418-fede-4732-aa6c-53d700e873b6" />
+
 
 ---
 
@@ -282,7 +287,8 @@ Nginx handles incoming traffic and forwards requests to the Next.js server.
 
 ### Screenshot
 
-Add Final Deployed Website Screenshot
+<img width="1600" height="812" alt="image" src="https://github.com/user-attachments/assets/b2861333-0eeb-468c-b38d-9dac8c6bfba4" />
+
 
 ---
 
@@ -297,24 +303,3 @@ Add Final Deployed Website Screenshot
 
 ---
 
-## Key Learning Outcomes
-
-- Practical AWS EC2 server deployment
-- Linux server management
-- Nginx reverse proxy configuration
-- Process management with PM2
-- Automated deployment using GitHub Actions
-- Secure environment configuration using GitHub Secrets
-
----
-
-## Author
-
-**Ayush Yadav**  
-B.Tech CSE, NIT Patna
-
----
-
-## License
-
-This project is created for WDC Induction Task – Deployment Strategy Assignment.
